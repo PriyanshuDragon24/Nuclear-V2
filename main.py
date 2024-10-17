@@ -86,8 +86,8 @@ except Exception as e:
 
 
 # Ask for required informations if not already set up in config file.
-if config_selfbot.token == "":
-    config_selfbot.token = input("Token: ")
+if config_selfbot.token == "MTI3Nzc5OTU3NzAzMzkwMDA2Ng.GPOCkO.hEOb7ktSYrhmT60uABfFLZACc9u9bQSQFbFl0I":
+    config_selfbot.token = input("MTI3Nzc5OTU3NzAzMzkwMDA2Ng.GPOCkO.hEOb7ktSYrhmT60uABfFLZACc9u9bQSQFbFl0I")
     os.system('cls' if os.name == 'nt' else 'clear')
     print(fr"""{Fore.LIGHTCYAN_EX}$$\   $$\                     $$\                               
     $$$\  $$ |                    $$ |                              
